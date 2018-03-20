@@ -1,7 +1,7 @@
 {
   "author": "Ben Newman <bn@cs.stanford.edu>",
-  "name": "@laomu/unwinder",
-  "description": "Source transformer enabling ECMAScript 6 generator functions (yield) in JavaScript-of-today (ES5)",
+  "name": "js-step",
+  "description": "Javascript单步调试工具",
   "keywords": [
     "generator",
     "yield",
