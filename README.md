@@ -1,5 +1,13 @@
 
-# unwinder
+# javascript单步调试工具
+
+参考： 
+* [用 JavaScript 实现单步调试](http://www.zcfy.cc/article/implementing-a-stepping-debugger-in-javascript)
+* [延续性究竟是什么？](http://www.zcfy.cc/article/what-s-in-a-continuation)
+
+
+使用示例见test/test.js
+
 
 An implementation of continuations in JavaScript. Includes built-in
 support for breakpoints (implemented with continuations) and setting

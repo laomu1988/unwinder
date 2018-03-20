@@ -1,6 +1,6 @@
 {
   "author": "Ben Newman <bn@cs.stanford.edu>",
-  "name": "regenerator",
+  "name": "@laomu/unwinder",
   "description": "Source transformer enabling ECMAScript 6 generator functions (yield) in JavaScript-of-today (ES5)",
   "keywords": [
     "generator",
@@ -20,12 +20,11 @@
   "homepage": "http://github.com/facebook/regenerator",
   "repository": {
     "type": "git",
-    "url": "git://github.com/facebook/regenerator.git"
+    "url": "https://github.com/laomu1988/unwinder"
   },
-  "main": "main.js",
-  "bin": "bin/regenerator",
+  "main": "runtime/vm.js",
   "scripts": {
-    "test": "node test/run.js"
+    "test": "node test/test.js"
   },
   "dependencies": {
     "ast-types": "~0.3.16",
@@ -33,17 +32,17 @@
     "css-loader": "^0.23.1",
     "defs": "~0.6.2",
     "escope": "~1.0.1",
-    "esprima": "git://github.com/ariya/esprima.git#harmony",
+    "esprima": "~4.0.0",
     "estraverse": "~1.5.0",
     "extract-text-webpack-plugin": "^1.0.1",
     "noop": "^0.2.2",
     "private": "~0.1.2",
     "recast": "~0.5.7",
     "style-loader": "^0.13.1",
-    "sweet.js": "^1.0.3",
-    "webpack": "^1.13.0"
+    "sweet.js": "^1.0.3"
   },
   "devDependencies": {
+    "webpack": "^1.13.0",
     "mocha": "~1.13.0",
     "semver": "~2.1.0",
     "expect": "0.0.2"

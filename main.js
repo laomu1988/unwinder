@@ -19,10 +19,10 @@ var esprimaHarmony = require("esprima");
 var genFunExp = /\bfunction\s*\*/;
 var blockBindingExp = /\b(let|const)\s+/;
 
-assert.ok(
-  /harmony/.test(esprimaHarmony.version),
-  "Bad esprima version: " + esprimaHarmony.version
-);
+// assert.ok(
+//   /harmony/.test(esprimaHarmony.version),
+//   "Bad esprima version: " + esprimaHarmony.version
+// );
 
 function regenerator(source, options) {
   options = utils.defaults(options || {}, {
